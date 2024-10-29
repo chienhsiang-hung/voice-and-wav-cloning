@@ -1,6 +1,8 @@
 # voice-and-wav-cloning
-[GPT-SoVITS指南](https://www.yuque.com/baicaigongchang1145haoyuangong/ib3g1e/zqbopihzr6eqoyl8)
-- 使用 `test_e8_s128.pth`, `test-e15.ckpt`
+Local use:
+> `git clone https://github.com/chienhsiang-hung/voice-and-wav-cloning.git`
+Colab use:
+> Click the ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) in each section below [Pipeline](#Pipeline).
 
 ## Pipeline
 ### Text to speech
@@ -18,6 +20,8 @@
     b. 上傳音檔 -> 切割、降噪、標注
 4. Training: [2.b.](#my2b) 的材料訓練
 5. Inference: 提供參考音檔、音檔逐字稿、欲生成音檔的逐字稿
+
+    - 範例使用 `test_e8_s128.pth`, `test-e15.ckpt`
 6. 下載 Output 音檔 與 [2.](#my2) 訓練完畢的權重
 
 ### Speech to lip generation
