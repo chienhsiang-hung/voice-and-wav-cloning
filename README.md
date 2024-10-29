@@ -4,7 +4,16 @@
 
 ## Pipeline
 兩步驟皆需要 Colab GPU 支援
+
 ![image](https://github.com/user-attachments/assets/9bf435ef-4296-4741-851e-1260447b9b7a)
+
+Config: (Minimum requirements)
+```json
+{
+    "Runtime type": "Python 3",
+    "Hardware accelerator": "T4 GPU"
+}
+```
 
 ### Text to speech
 ( 涵 fine-tune training )
