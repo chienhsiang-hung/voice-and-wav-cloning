@@ -29,36 +29,26 @@ Colab use:
 Ref: [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
 ### Speech to lip generation
 以下提供兩種方法，都是純 inferencing
-#### 1. Lip Sync Video
+#### a. Lip Sync Video
 ( 如果有乾淨影片檔，建議選這一個方法 ) 實現高精度的唇形同步技術
 
-  a. 開啟 [Wav2Lip_simplified_v5.ipynb](Wav2Lip_simplified_v5.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chienhsiang-hung/voice-and-wav-cloning/blob/main/Wav2Lip_simplified_v5.ipynb)
-  
-  b. 上傳欲 lip sync 的參考影片
-  
-  c. 上傳欲 lip sync 的音檔
-
-  d. Inference
-  
-  e. 下載 Output 影片
+1. 開啟 [Wav2Lip_simplified_v5.ipynb](Wav2Lip_simplified_v5.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chienhsiang-hung/voice-and-wav-cloning/blob/main/Wav2Lip_simplified_v5.ipynb)
+2. 上傳欲 lip sync 的參考影片
+3. 上傳欲 lip sync 的音檔
+4. Inference
+5. 下載 Output 影片
 
 Ref: [Rudrabha/Wav2Lip](https://github.com/Rudrabha/Wav2Lip)
-#### 2. Faceless video generator
+#### b. Faceless video generator
 ( 如果只有相片的話，選這一個方法 ) 通過音頻驅動單張圖像生成逼真的3D說話人臉動畫
 
-  a. 開啟 [FacelessColab.ipynb](FacelessColab.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chienhsiang-hung/voice-and-wav-cloning/blob/main/FacelessColab.ipynb)
-
-  b. 安裝依賴項：首先安裝必要的庫和工具。這個過程大約需要五分鐘。
-
-  c. 上傳源圖像：你可以使用本地庫中的現有圖像或上傳自己的圖像。這張圖像將作為動畫面部的基礎。
-
-  d. 生成腳本 (optional)：使用OpenAI根據你選擇的主題生成腳本。或者，你也可以手動輸入腳本。
-
-  e. 使用TTS生成音頻 (optional)：使用文本轉語音（TTS）模型如gTTS生成音頻。請注意，gTTS通常生成女性聲音，如果你需要不同的聲音，可能需要探索其他TTS模型。( 請直接使用我們 [Pipeline](#Pipeline) 中 [Text to speech](#Text-to-speech) 的音檔 )
-
-  f. 生成視頻：當圖像和音頻準備好後，在筆記本中運行視頻生成步驟以生成無面視頻。這個過程大約需要5到10分鐘。
-
-  g. 下載視頻：運行筆記本中的最後一個單元格以創建可播放的視頻，並可以下載供個人使用。
+1. 開啟 [FacelessColab.ipynb](FacelessColab.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chienhsiang-hung/voice-and-wav-cloning/blob/main/FacelessColab.ipynb)
+2. 安裝依賴項：首先安裝必要的庫和工具。這個過程大約需要五分鐘。
+3. 上傳源圖像：你可以使用本地庫中的現有圖像或上傳自己的圖像。這張圖像將作為動畫面部的基礎。
+4. 生成腳本 (optional)：使用OpenAI根據你選擇的主題生成腳本。或者，你也可以手動輸入腳本。
+5. 使用TTS生成音頻 (optional)：使用文本轉語音（TTS）模型如gTTS生成音頻。請注意，gTTS通常生成女性聲音，如果你需要不同的聲音，可能需要探索其他TTS模型。( 請直接使用我們 [Pipeline](#Pipeline) 中 [Text to speech](#Text-to-speech) 的音檔 )
+6. 生成視頻：當圖像和音頻準備好後，在筆記本中運行視頻生成步驟以生成無面視頻。這個過程大約需要5到10分鐘。
+7. 下載視頻：運行筆記本中的最後一個單元格以創建可播放的視頻，並可以下載供個人使用。
 
 Ref: [SamurAIGPT/AI-Faceless-Video-Generator](https://github.com/SamurAIGPT/AI-Faceless-Video-Generator) ( Utilized [OpenTalker/SadTalker](https://github.com/OpenTalker/SadTalker) )
 ## Env
