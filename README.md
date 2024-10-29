@@ -3,6 +3,8 @@
 - 使用 `test_e8_s128.pth`, `test-e15.ckpt`
 
 ## Pipeline
+兩步驟皆需要 Colab GPU 支援
+
 ### Text to speech
 ( 涵 fine-tune training )
 1. 先從 Youtube 找尋[素材影片跟聲音](https://m.youtube.com/watch?v=2cUEZfT6w3k)
@@ -16,7 +18,8 @@
 
 ### Speech to lip generation
 ( 純 inferencing )
-1. 上傳欲 lip sync 的參考影片
-2. 上傳欲 lip sync 的音檔
-3. Inference
-4. 下載 Output 影片
+1. 開啟 [Wav2Lip_simplified_v5.ipynb](Wav2Lip_simplified_v5.ipynb)
+2. 上傳欲 lip sync 的參考影片
+3. 上傳欲 lip sync 的音檔
+4. Inference
+5. 下載 Output 影片
