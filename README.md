@@ -1,6 +1,7 @@
 # voice-and-wav-cloning
 Local use:
 > `git clone https://github.com/chienhsiang-hung/voice-and-wav-cloning.git`
+
 Colab use:
 > Click the ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) in each section below [Pipeline](#Pipeline).
 
