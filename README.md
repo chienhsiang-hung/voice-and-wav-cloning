@@ -1,4 +1,5 @@
 # voice-and-wav-cloning
+![GitHub followers](https://img.shields.io/github/followers/chienhsiang-hung)
 ![GitHub forks](https://img.shields.io/github/forks/chienhsiang-hung/voice-and-wav-cloning)
 ![GitHub Repo stars](https://img.shields.io/github/stars/chienhsiang-hung/voice-and-wav-cloning)
 ## Quick Start
