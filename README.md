@@ -1,4 +1,6 @@
 # voice-and-wav-cloning
+![GitHub forks](https://img.shields.io/github/forks/chienhsiang-hung/voice-and-wav-cloning)
+![GitHub Repo stars](https://img.shields.io/github/stars/chienhsiang-hung/voice-and-wav-cloning)
 ## Quick Start
 Local use:
 > `git clone https://github.com/chienhsiang-hung/voice-and-wav-cloning.git`
